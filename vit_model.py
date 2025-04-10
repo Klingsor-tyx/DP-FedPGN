@@ -308,7 +308,7 @@ def vit_base_patch16_224(num_classes: int = 1000):
     ViT-Base model (ViT-B/16) from original paper (https://arxiv.org/abs/2010.11929).
     ImageNet-1k weights @ 224x224, source https://github.com/google-research/vision_transformer.
     weights ported from official Google JAX impl:
-    链接: https://pan.baidu.com/s/1zqb08naP0RPqqfSXfkB2EA  密码: eu9f
+    link: https://pan.baidu.com/s/1zqb08naP0RPqqfSXfkB2EA  password: eu9f
     """
     model = VisionTransformer(img_size=224,
                               patch_size=16,
