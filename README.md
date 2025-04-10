@@ -1,9 +1,7 @@
 # Setup
 
 - torch == 2.1
-
 - torchvision == 0.19
-
 - ray == 1.0
 
 # Datasets
