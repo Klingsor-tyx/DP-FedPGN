@@ -37,7 +37,7 @@ class LESAM(torch.optim.Optimizer):
                     grad_norm+=g_update[key].norm(p=2)**2
         grad_norm = grad_norm ** 0.5
         #my_dict = {'a': 1, 'b': 2, 'c': 3}
-        #index = 1  # 假设我们想要第二个元素
+        #index = 1  
         #key = keys_list[index]
         #value = my_dict[key]
         for group in self.param_groups:

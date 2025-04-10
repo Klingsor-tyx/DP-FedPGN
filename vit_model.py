@@ -70,7 +70,7 @@ class PatchEmbed(nn.Module):
 
 class Attention(nn.Module):
     def __init__(self,
-                 dim,   # 输入token的dim
+                 dim, 
                  num_heads=8,
                  qkv_bias=False,
                  qk_scale=None,
@@ -353,7 +353,7 @@ def vit_base_patch32_224(num_classes: int = 1000):
     ViT-Base model (ViT-B/32) from original paper (https://arxiv.org/abs/2010.11929).
     ImageNet-1k weights @ 224x224, source https://github.com/google-research/vision_transformer.
     weights ported from official Google JAX impl:
-    链接: https://pan.baidu.com/s/1hCv0U8pQomwAtHBYc4hmZg  密码: s5hl
+    link: https://pan.baidu.com/s/1hCv0U8pQomwAtHBYc4hmZg  password: s5hl
     """
     model = VisionTransformer(img_size=224,
                               patch_size=32,
@@ -387,7 +387,7 @@ def vit_large_patch16_224(num_classes: int = 1000):
     ViT-Large model (ViT-L/16) from original paper (https://arxiv.org/abs/2010.11929).
     ImageNet-1k weights @ 224x224, source https://github.com/google-research/vision_transformer.
     weights ported from official Google JAX impl:
-    链接: https://pan.baidu.com/s/1cxBgZJJ6qUWPSBNcE4TdRQ  密码: qqt8
+    link: https://pan.baidu.com/s/1cxBgZJJ6qUWPSBNcE4TdRQ  password: qqt8
     """
     model = VisionTransformer(img_size=224,
                               patch_size=16,
