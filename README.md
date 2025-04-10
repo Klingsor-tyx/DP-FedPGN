@@ -4,7 +4,7 @@
 - torchvision == 0.19
 - ray == 1.0
 
-# Datasets
+# Dataset
 
 - CIFAR10, CIFAR100
 - NLP datasets, such as SST-2, QQP, MRPC, and QNLI 
