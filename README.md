@@ -1,10 +1,10 @@
 # Setup
 
-torch == 2.1
+- torch == 2.1
 
-torchvision == 0.19
+- torchvision == 0.19
 
-ray == 1.0
+- ray == 1.0
 
 # Datasets
 
@@ -25,14 +25,14 @@ python DP_new.py --alg DP-FedPGN --lr 0.1 --data_name CIFAR100 --alpha_value 0.6
 
 Explanations of arguments:
 
---alg: < DP-FedAvg, DP-FedAvg-LS, DP-FedSMP, FedAvg_BLUR, DP-FedSAM, DP-FedPGN, DP-FedPGN-LS>
+- `alg`: DP-FedAvg, DP-FedAvg-LS, DP-FedSMP, FedAvg_BLUR, DP-FedSAM, DP-FedPGN, DP-FedPGN-LS
 
---alpha_value: parameter of Dirichlet Distribution, controling the level of Non-IID < 0.1, 0.6 >
+- `alpha_value`: parameter of Dirichlet Distribution, controling the level of Non-IID
 
---E: local training epochs for each client
+- `E`: local training epochs for each client
 
---selection: the selection fraction of total clients in each round
+- `selection`: the selection fraction of total clients in each round
 
---dp_sigma: noise multiplier for DP
+- `dp_sigma`: noise multiplier for DP
 
---C: the threshold of clipping in DP
+- `C`: the threshold of clipping in DP
